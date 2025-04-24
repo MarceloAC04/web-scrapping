@@ -93,7 +93,7 @@ while True:
         else:
             print("Você chegou na última página!")
     except Exception as e:
-        print("Erro ao tentar")
+        print("Erro ao tentar", e)
         break 
      
     # fechar o navegador
